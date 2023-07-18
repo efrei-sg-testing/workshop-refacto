@@ -5,6 +5,7 @@
 
 
 
+
 function checkPalindrome(wordToCheck) {
     const reversed = wordToCheck.split("").reverse().join("");
     const isPalindrome = (reversed === wordToCheck);
